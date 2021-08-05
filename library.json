@@ -1,0 +1,24 @@
+{
+    "name": "esp-sgp40",
+    "version": "1.0.0",
+    "description": "A library built on esp-idf for reading SGP40 VOC sensors.",
+    "keywords": "sgp40, voc, tvoc, sensor, i2c, hardware, esp-idf, esp32, esp8266",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/khoek/esp-sgp40.git"
+    },
+    "authors": [
+        {
+            "name": "Keeley Hoek",
+            "email": "keeley@hoek.io",
+            "url": "https://hoek.io"
+        }
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/khoek/esp-sgp40",
+    "frameworks": "espidf",
+    "platforms": "espressif32",
+    "dependencies": {
+        "khoek/esp-sensirion": "^1.0.0"
+    }
+}
